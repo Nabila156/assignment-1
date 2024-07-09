@@ -8,6 +8,22 @@ body{
     padding: 0px;
 }
 
+/* shared styles */
+
+.learn-more{
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 
+}
+
+.learn-more-style{
+    padding-top: 30px;
+}
+
 /* In the near future, I hope to become a Developer. */
 
 .header{
@@ -56,23 +72,79 @@ body{
 /* why web development?? */
 
 .why-web{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.why-web-development{
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
 }
 
-.why-web h4{
+.why-web-development h4{
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
-    padding-top: 160px;
+    padding-top: 80px 100px;
 }
 
-.why-web p{
+.why-web-development p{
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
     opacity: 0.7;
     padding-top: 30px;
+}
+
+.landscape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* yellow man */
+
+.yellow-man, .red-man, .orange-man{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.do-code h4, .help-people h4, .change-the-world h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.do-code p, .help-people p, .change-the-world p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.yellow-man-style, .red-man-style, .orange-man-style{
+    padding-top: 50px;
+}
+
+
+/* red man */
+
+.help-people{
+    padding-left: 70px;
 }
