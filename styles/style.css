@@ -174,5 +174,92 @@ body{
 }
 
 .inspiration iframe{
-    padding-top: 70px;
+    padding: 35px;
+    margin-top: 70px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* my current target */
+
+.my-current-target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.current-target h4{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.current-target p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+    padding-top: 50px;
+
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html img, .css img, .js img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.html h4, .css h4, .js h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+.html p, .css p, .js p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.link{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
