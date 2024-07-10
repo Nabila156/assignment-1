@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -17,7 +18,6 @@ body{
     color: #0D1321;
     font-size: 20px;
     font-weight: 600;
-    padding: 
 }
 
 .learn-more-style{
@@ -217,6 +217,7 @@ body{
     width: 90%;
     gap: 30px;
     padding-top: 50px;
+}
 
 .html{
     border-radius: 16px;
@@ -263,3 +264,66 @@ body{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* support */
+
+.support{
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 314px;
+    border-radius: 16px;
+    margin: 70px;
+    background-color: rgba(13, 19, 33, 0.5) ;
+    background-blend-mode: overlay;
+}
+
+.support h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.support p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.suggestion{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.suggestion textarea{
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    cursor: pointer;
+}
+
+.suggestion button{
+    border-radius: 8px;
+    width: 120px;
+    height: 58px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    cursor: pointer;
+}
+
